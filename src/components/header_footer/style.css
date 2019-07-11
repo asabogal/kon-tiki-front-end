@@ -6,14 +6,26 @@
   border: 1px solid black;
   height: 80px;
   width: 100%;
+  background: none;
 }
 
 .header-nav {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  padding-right: 50px;
 }
 
 .header-nav li {
   list-style: none;
-  padding: 10px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.header-nav li:hover {
+  color: #ca5b93de;
+}
+
+.header-logo {
+  padding-left: 50px;
 }
