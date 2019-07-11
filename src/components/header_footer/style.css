@@ -1,3 +1,7 @@
 .header-container {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border: 1px solid black;
+  padding: 40px;
 }
