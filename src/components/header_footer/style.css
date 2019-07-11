@@ -1,7 +1,19 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: aliceblue;
   border: 1px solid black;
-  padding: 40px;
+  height: 80px;
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav li {
+  list-style: none;
+  padding: 10px;
 }
