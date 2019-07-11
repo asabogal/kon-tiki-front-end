@@ -8,7 +8,7 @@ class App extends Component {
         <Helmet>
           <title>Kon-Tiki Greenport</title>
           <meta name="description" content="Kon-Tiki Restaurant and Bar at The Gallery Hotel" />
-          <meta name="keywords" cpntent="greenport, restaurant, bar, gallery hotel, gallery, hotel" />
+          <meta name="keywords" content="greenport, restaurant, bar, gallery hotel, gallery, hotel" />
         </Helmet>
       </div>
     );
