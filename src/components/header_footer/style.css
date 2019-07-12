@@ -29,3 +29,24 @@
 .header-logo {
   padding-left: 50px;
 }
+
+.burger-menu {
+  padding-right: 50px;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+
+  .header-container {
+    height: 80px;
+  }
+}
