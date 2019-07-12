@@ -6,3 +6,23 @@
   background-size: cover !important;
   border-radius: 50%
 }
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 3px 25px;
+  border-radius: 2px;
+  border-color: #000;
+  font-size: inherit;
+  font-family: "Oswald";
+  line-height: 1.5;
+  color: inherit;
+  background-color: inherit;
+}
+
+.btn:hover {
+  background-color: pink;
+}
