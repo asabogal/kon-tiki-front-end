@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Logo from '../utils/Logo'
 import { Link } from 'react-router-dom'
 import './style.css'
 
@@ -19,7 +20,14 @@ class Header extends Component {
        
     return (
       <div className="header-container">
-        <div className="header-logo"> LOGO </div>
+        <div className="header-logo"> 
+          <Logo
+            link={true}
+            linkTo="/"
+            width="80px"
+            height="80px"
+          />
+        </div>
 
       <ul className="header-nav">
         <Link style={styles.link} to="/"> <li>WHERE | WHEN</li> </Link>
