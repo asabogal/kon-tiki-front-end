@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from '../utils/Logo'
 import { Link } from 'react-router-dom'
 import BurgerButton from '../utils/BurgerButton'
+import Button from '../utils/Button'
 import './style.css'
 
 const styles = {
@@ -55,7 +56,7 @@ class Header extends Component {
           <Link style={styles.link} to="/"> <li>GALLERY</li> </Link>
           <Link style={styles.link} to="/"> <li>ABOUT</li> </Link>
           <Link style={styles.link} to="/"> <li>PRESS</li> </Link>
-          <Link style={styles.link} to="/"> <li>RESERVE</li> </Link>
+          <Link style={styles.link} to="/"> <Button text="RESERVE"/> </Link>
         </ul>
 
         <div className="burger-menu">
