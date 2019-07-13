@@ -1,5 +1,6 @@
 .hero {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 30% auto;
   height: 100vh;
-  width: 100vw;
-
 }

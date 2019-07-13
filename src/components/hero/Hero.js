@@ -12,8 +12,13 @@ const Hero = (props) => {
           position: 'relative,'
         }}
       >
+        <div>
+          
+        </div>
+        <div className="content-container">
+          {props.content}
+        </div>
         
-        {props.content}
 
     </div>
       
