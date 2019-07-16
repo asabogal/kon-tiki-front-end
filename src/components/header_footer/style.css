@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: aliceblue;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100px;
   width: 100%;
   background: none;
@@ -53,11 +53,20 @@
 
 /* FOOTER */
 
+.footer-div {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
   background-color: black;
-  padding: 20px 30px;
 }
 
 .footer-number {
@@ -66,4 +75,11 @@
 
 .footer-address {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
