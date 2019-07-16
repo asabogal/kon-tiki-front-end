@@ -50,3 +50,20 @@
     height: 80px;
   }
 }
+
+/* FOOTER */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px 30px;
+}
+
+.footer-number {
+  color: white;
+}
+
+.footer-address {
+  color: white;
+}

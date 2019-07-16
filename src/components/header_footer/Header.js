@@ -26,8 +26,8 @@ class Header extends Component {
         <Logo
         link={true}
         linkTo="/"
-        width="60px"
-        height="60px"
+        width="55px"
+        height="55px"
       />
       )
     } else {
