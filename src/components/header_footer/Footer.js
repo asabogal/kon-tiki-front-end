@@ -5,11 +5,13 @@ import './style.css'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div className="footer-number">
-        631-477-4000
+      <div>
+        <a className="footer-number"
+        href="tel: +1-631-477-4000"> 631-477-4000 </a>
       </div>
-      <div className="footer-address">
-        437 Main Street - Greenport, NY 11944
+      <div>
+        <a className="footer-address" 
+        href="https://goo.gl/maps/VvUnSeM1wvvrmTYm7"> 437 Main Street - Greenport, NY 11944 </a>
       </div>
       <div>
         <SocialBar
