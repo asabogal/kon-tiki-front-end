@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
-import image from '../components/hero/images/fish1.png'
+import image from '../components/hero/images/bar1.png'
 
 class HomePage extends Component {
   constructor(props) {
