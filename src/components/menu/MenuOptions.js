@@ -10,7 +10,7 @@ const MenuOptions = () => {
         <h1>MENUS</h1>
       </div>
       <div className="menu-buttons">  
-        <Button padding="3px 50px" fontSize="40px" text="DINNER" linkTo="/"/>
+        <Button padding="3px 50px" fontSize="40px" text="DINNER" linkTo="/dinner"/>
         <Button fontSize="40px" text="COCKTAILS" linkTo="/"/>
       </div>
     </div>
