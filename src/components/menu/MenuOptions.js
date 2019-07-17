@@ -11,7 +11,7 @@ const MenuOptions = () => {
       </div>
       <div className="menu-buttons">  
         <Button padding="3px 50px" fontSize="40px" text="DINNER" linkTo="/dinner"/>
-        <Button fontSize="40px" text="COCKTAILS" linkTo="/"/>
+        <Button padding="3px 50px" fontSize="40px" text="DRINKS" linkTo="/drinks"/>
       </div>
     </div>
   );

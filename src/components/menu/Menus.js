@@ -1,5 +1,6 @@
 import React from 'react';
 import dinner from './menu_imgs/Food Menu 7.15.pdf'
+import drinks from './menu_imgs/Beverage Menu 2.1.pdf'
 
 export const DinnerMenu = () => {
 
@@ -20,7 +21,7 @@ export const DrinksMenu = () => {
     <div className="pdf-container">
      <embed
         className="menu-img"
-        src={dinner}
+        src={drinks}
         type="application/pdf"
       />
     </div>
