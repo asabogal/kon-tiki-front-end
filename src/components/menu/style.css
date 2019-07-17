@@ -15,3 +15,15 @@
   flex-wrap: wrap;
   padding: 0 5px;
 }
+
+.pdf-container {
+  display: grid;
+  justify-items: center;
+  height: 1000px;
+}
+
+.menu-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
