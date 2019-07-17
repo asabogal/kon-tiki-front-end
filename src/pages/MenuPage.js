@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
 import heroImage from '../components/hero/images/fish1.png'
+import MenuOptions from '../components/menu/MenuOptions'
 
 class MenuPage extends Component {
   constructor(props) {
@@ -11,7 +12,8 @@ class MenuPage extends Component {
   heroContent = () => {
     return (
       <div>
-        <h1>PLACEHOLDER</h1>
+        <h1 style={{color: 'white'}} 
+        >PLACEHOLDER</h1>
       </div>
     )
   }
@@ -23,6 +25,7 @@ class MenuPage extends Component {
           image={heroImage}
           content={this.heroContent()}
         />
+        <MenuOptions/>
       </div>
     );
   }
