@@ -69,12 +69,12 @@
   background-color: black;
 }
 
-.footer-number {
+.footer-container a {
   color: white;
+  text-decoration: none;
 }
-
-.footer-address {
-  color: white;
+.footer-container a:hover {
+  color: #f891c5ef;
 }
 
 @media (max-width: 768px) {
