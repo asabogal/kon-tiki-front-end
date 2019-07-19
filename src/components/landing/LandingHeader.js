@@ -9,10 +9,6 @@ class LandingHeader extends Component {
     this.state = { isOpen: false };
   }
 
-  componentDidMount = () => {
-    document.querySelector('.header-container').style.display = 'none'
-  }
-
   render() {
     return (
       <div className="landing-header">
