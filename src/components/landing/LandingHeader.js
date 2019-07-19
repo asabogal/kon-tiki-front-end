@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SocialBar from '../utils/SocialBar'
 import BurgerButton from '../utils/BurgerButton'
+import './style.css'
 
 class LandingHeader extends Component {
   constructor(props) {
@@ -15,8 +16,14 @@ class LandingHeader extends Component {
   render() {
     return (
       <div className="landing-header">
-        <BurgerButton/>
-        <SocialBar/>
+        <BurgerButton
+          size="2x"
+          color="#ca5b93de"
+          />
+        <SocialBar
+          size="2x"
+          color="#ca5b93de"
+        />
       </div>
     );
   }
