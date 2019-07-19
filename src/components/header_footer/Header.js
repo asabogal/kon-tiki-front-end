@@ -56,12 +56,7 @@ class Header extends Component {
           <Link style={styles.link} to="/"> <li>GALLERY</li> </Link>
           <Link style={styles.link} to="/"> <li>ABOUT</li> </Link>
           <Link style={styles.link} to="/"> <li>PRESS</li> </Link>
-          <Link style={styles.link} to="/"> 
-            <Button 
-            text="RESERVE"
-            background="inherit"
-           /> 
-          </Link>
+          <Link style={styles.link} to="/"> <Button text="RESERVE"/> </Link>
         </ul>
 
         <div className="burger-menu">
