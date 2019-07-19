@@ -9,7 +9,8 @@ const Button = (props) => {
       style={{
         fontSize: props.fontSize,
         color: props.color,
-        padding: props.padding
+        padding: props.padding,
+        backgroundColor: props.background
       }}
     >
       {props.text}
