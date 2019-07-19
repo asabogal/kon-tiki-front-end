@@ -9,14 +9,15 @@ class HomePage extends Component {
   }
 
   heroContent = () => {
-
     return (
       <div>
-       <h1>PLACEHOLDER</h1>
+       <h1 style={{color: 'aqua', fontSize: '80px'}}
+          >PLACEHOLDER
+       </h1>
       </div>
     )
-    
   }
+
   render() {
     return (
       <div>

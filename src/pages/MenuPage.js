@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
-import heroImage from '../components/hero/images/fish1.png'
+import heroImage from '../components/hero/images/menu1.png'
 import MenuOptions from '../components/menu/MenuOptions'
 
 class MenuPage extends Component {
@@ -12,8 +12,9 @@ class MenuPage extends Component {
   heroContent = () => {
     return (
       <div>
-        <h1 style={{color: 'white'}} 
-        >PLACEHOLDER</h1>
+       <h1 style={{color: 'aqua', fontSize: '80px'}}
+          >PLACEHOLDER
+       </h1>
       </div>
     )
   }
