@@ -1,0 +1,12 @@
+.slider-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 800px;
+}
+
+.slider-content {
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
+}
