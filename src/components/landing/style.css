@@ -38,6 +38,44 @@
   text-shadow: 1px 2px #174668;
 }
 
+.landing-navigation a:nth-child(1) {
+  opacity: 0;
+  animation: 1s ease 1s forwards;
+  animation-name: fadeIn;
+  animation-delay: 1.5s;
+}
+
+.landing-navigation a:nth-child(2) {
+  opacity: 0;
+  animation: 1s ease 1s forwards;
+  animation-name: fadeIn;
+  animation-delay: 1.6s;
+}
+
+.landing-navigation a:nth-child(3) {
+  opacity: 0;
+  animation: 1s ease 1s forwards;
+  animation-name: fadeIn;
+  animation-delay: 1.7s;
+}
+
+.landing-navigation a:nth-child(4) {
+  opacity: 0;
+  animation: 1s ease 1s forwards;
+  animation-name: fadeIn;
+  animation-delay: 1.8s;
+}
+
+.landing-navigation a:hover {
+  color: rgba(64, 201, 235, 0.884);
+  transform: scale(1.03)
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+	to {opacity: 1}
+}
+
 /* IMAGE */
 
 .landing-image {
