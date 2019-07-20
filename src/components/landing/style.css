@@ -11,12 +11,22 @@
 
 .landing-body {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
   justify-content: center;
   justify-items: center;
   align-items: center;
   color: white;
   height: 600px;
+  padding: 0 30px;
 }
-/* NAVIGATION */
+
+ /* NAVIGATION */
+
+/* IMAGE */
+
+.landing-image {
+  width: 100%;
+  padding-right: 50px;
+  margin: 0 auto;
+}
