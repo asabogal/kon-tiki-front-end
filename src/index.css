@@ -12,7 +12,7 @@ code {
 
 /* QUICK FIX TO STICKY FOOTER PROBLEM */
 #root {
-  padding-bottom: 60px;
+  padding-bottom: 57px;
 }
 
 @media (max-width: 768px) {
