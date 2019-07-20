@@ -2,9 +2,13 @@
 
 .landing-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 20px;
+}
+
+.burger-button {
+  display: none;
 }
 
 /* BODY  */
@@ -19,6 +23,25 @@
   color: white;
   height: 600px;
   padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+
+  .landing-header {
+    justify-content: space-between;
+  }
+
+  .landing-navigation a {
+    display: none;
+  }
+  .landing-body {
+    grid-template-columns: 1fr;
+    height: 50vh;
+  }
+
+  .burger-button {
+    display: inLine;
+  }
 }
 
  /* NAVIGATION */
