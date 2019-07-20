@@ -9,7 +9,7 @@ const BurgerButton = (props) => {
   }
 
   return (
-    <div>
+    <div className="burger-button">
       <FontAwesomeIcon 
       icon={faBars} 
       size={props.size} 
