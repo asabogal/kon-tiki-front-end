@@ -23,6 +23,21 @@
 
  /* NAVIGATION */
 
+ .landing-navigation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.landing-navigation a {
+  font-size: 85px;
+  list-style: none;
+  text-decoration: none;
+  color: #ca5b93de;
+  text-shadow: 1px 2px #174668;
+}
+
 /* IMAGE */
 
 .landing-image {
