@@ -54,13 +54,14 @@
   .landing-navigation a {
     display: none;
   }
+
   .landing-body {
     grid-template-columns: 1fr;
     height: 50vh;
   }
 
   .burger-button {
-    display: inLine;
+    display: inline;
   }
 }
 
@@ -123,6 +124,28 @@
 
 .landing-image {
   width: 100%;
+  position: relative;
+  left: -220px;
   padding-right: 50px;
   margin: 0 auto;
+  animation: moveImage 1s ease forwards;
+  animation-delay: 1.5s;
+  -webkit-animation: moveImage 1s ease forwards;
+  -webkit-animation-delay: 1.5s;
+  z-index: 0;
+}
+
+@keyframes moveImage {
+  from {left: -220px}
+  to {left: 0px}
+}
+
+@media all and (max-width: 768px) {
+  .landing-image {
+    position: static;
+    animation: none;
+    animation-delay: none !important;
+    -webkit-animation: none !important;
+    -webkit-animation-delay: none;
+  }
 }
