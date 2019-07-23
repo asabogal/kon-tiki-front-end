@@ -14,11 +14,11 @@ class LandingHeader extends Component {
       <div className="landing-header">
         <BurgerButton
           size="2x"
-          color="#ca5b93de"
+          color="#ce6897"
           />
         <SocialBar
           size="2x"
-          color="#ca5b93de"
+          color="#ce6897"
         />
       </div>
     );

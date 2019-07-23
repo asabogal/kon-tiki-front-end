@@ -15,8 +15,8 @@ class LandingPage extends Component {
 
     this.footer = document.querySelector('.footer-container')
     this.footer.querySelector('.social-bar').style.display = 'none'
-    this.footer.querySelector('.footer-address').style.color = '#ca5b93de'
-    this.footer.querySelector('.footer-number').style.color = '#ca5b93de'
+    this.footer.querySelector('.footer-address').style.color = '#ce6897'
+    this.footer.querySelector('.footer-number').style.color = '#ce6897'
 
     document.getElementById('root').style.padding = '0px'
 
