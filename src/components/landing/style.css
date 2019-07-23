@@ -42,7 +42,7 @@
   align-items: center;
   color: white;
   height: 600px;
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 
 @media (max-width: 768px) {
@@ -118,6 +118,24 @@
 @keyframes fadeIn {
   from {opacity: 0}
 	to {opacity: 1}
+}
+
+@media (max-width: 1200px) {
+  .landing-navigation a {
+    font-size: 78px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .landing-navigation a {
+    font-size: 73px;
+  }
+}
+
+@media (max-width: 930px) {
+  .landing-navigation a{
+    font-size: 68px;
+  }
 }
 
 /* IMAGE */
