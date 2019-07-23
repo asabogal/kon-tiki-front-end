@@ -6,12 +6,22 @@
   padding-bottom: 40px;
 }
 
+.menu-intro {
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .menu-intro {
+    width: 300px;
+  }
+}
+
 .menu-buttons {
   width: 100%;
   display: flex;
-  gap: 1.5rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 0 5px;
 }
