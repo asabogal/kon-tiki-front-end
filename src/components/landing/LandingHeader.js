@@ -16,6 +16,9 @@ class LandingHeader extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     })
+
+    let image = document.querySelector('.landing-image')
+    return this.state.isOpen ? image.style.display = 'block' : image.style.display = 'none'
   };
 
   renderMobile = () => {
