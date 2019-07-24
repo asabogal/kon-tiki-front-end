@@ -78,6 +78,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer-div {
+    bottom: 10%;
+  }
+
   .footer-container {
     flex-direction: column;
     align-items: center;

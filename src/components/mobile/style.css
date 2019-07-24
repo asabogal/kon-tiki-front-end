@@ -11,7 +11,7 @@
   height: 100%;
   width: 100%;
   opacity: 1;
-  transition: 1s ease 1s forwards ;
+  transition: .5s ease .5s forwards ;
   background-color: inherit;
   z-index: 999;
 }
@@ -34,4 +34,37 @@
   list-style: none;
   color: inherit;
   text-shadow: 1px 2px #174668;
+}
+
+.overlay a:nth-child(1) {
+  opacity: 0;
+  animation: .5s ease .5s forwards;
+  animation-name: fadeIn;
+  animation-delay: .5s;
+}
+
+.overlay a:nth-child(2) {
+  opacity: 0;
+  animation: .5s ease .5s forwards;
+  animation-name: fadeIn;
+  animation-delay: .6s;
+}
+
+.overlay a:nth-child(3) {
+  opacity: 0;
+  animation: .5s ease .5s forwards;
+  animation-name: fadeIn;
+  animation-delay: .7s;
+}
+
+.overlay a:nth-child(4) {
+  opacity: 0;
+  animation: .5s ease .5s forwards;
+  animation-name: fadeIn;
+  animation-delay: .8s;
+}
+
+.overlay a:hover {
+  color: rgba(64, 201, 235, 0.884);
+  transform: scale(1.03)
 }
