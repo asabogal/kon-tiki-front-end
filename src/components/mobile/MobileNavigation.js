@@ -1,16 +1,22 @@
 import React from 'react';
+import { red } from 'ansi-colors';
 
 const MobileNavigation = (props) => {
 
-  handleClick = () => {
+  const handleClick = () => {
     props.toggle()
   }
   return (
-    <div className="overlay" onClick={handleClick}>
-      <div className="overlay-content">
-        {props.children}
+    <div className="mobile-nav-cotainer">
+      <div className="overlay" onClick={handleClick}>
+        <div className="overlay-content">
+          <div style={{color: props.color}}>
+            {props.children}
+          </div>
+        </div>
       </div>
     </div>
+      
   );
 };
 
