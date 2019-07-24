@@ -10,7 +10,7 @@
   animation-name: fadeDown;
   animation-delay: 2s;
   transform: translateY(20%);
-  z-index: 999;
+  z-index: 0;
 }
 
 .burger-button {
@@ -142,6 +142,7 @@
 /* IMAGE */
 
 .landing-image {
+  display: block;
   width: 100%;
   position: relative;
   left: -220px;

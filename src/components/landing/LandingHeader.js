@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import SocialBar from '../utils/SocialBar'
 import BurgerButton from '../utils/BurgerButton'
+import MobileNavigation from '../mobile/MobileNavigation'
+import { Link } from 'react-router-dom'
 import './style.css'
+import '../mobile/style.css'
 
 class LandingHeader extends Component {
   constructor(props) {
@@ -9,17 +12,49 @@ class LandingHeader extends Component {
     this.state = { isOpen: false };
   }
 
-  render() {
+  toggle = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
+  };
+
+  renderMobile = () => {
+    return (
+      <MobileNavigation color="#ce6897" toggle={this.toggle}>
+        <ul>
+          <Link to="/home"> <li>HOME</li> </Link>
+          <Link to="/menu"> <li>MENU</li> </Link>
+          <Link to="/"> <li>RESERVE</li> </Link>
+          <Link to="/"> <li>CONTACT</li> </Link>
+        </ul>
+      </MobileNavigation>
+    )
+  };
+
+  renderHeader = () => {
     return (
       <div className="landing-header">
-        <BurgerButton
-          size="2x"
-          color="#ce6897"
-          />
+        <BurgerButton 
+          toggle={this.toggle} 
+          size="2x" 
+          color="#ce6897"/>
+
         <SocialBar
           size="2x"
           color="#ce6897"
         />
+      </div>
+    )
+  };
+
+  renderContent = () => {
+    return this.state.isOpen ? this.renderMobile() : this.renderHeader()
+  };
+
+  render() {
+    return (
+      <div>
+        {this.renderContent()}
       </div>
     );
   }
