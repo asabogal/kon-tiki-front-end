@@ -38,3 +38,26 @@
 .burger-button {
   cursor: pointer;
 }
+
+/* TEXT INFO */
+
+.text-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-info-container h1 {
+  border-bottom: 5px solid black;
+  /* padding-right: 80px; */
+  font-size: 25px;
+}
+
+.text-content {
+  font-size: 1rem;
+}
+
+.picture-cover{
+  background-size: cover !important;
+  background-size: cover;
+  background-position: center center;
+}
