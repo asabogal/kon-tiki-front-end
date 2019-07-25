@@ -25,6 +25,9 @@ class HomePage extends Component {
           image={image}
           content={this.heroContent()}
         />
+        <div className="page-content">
+
+        </div>
       </div>
     );
   }

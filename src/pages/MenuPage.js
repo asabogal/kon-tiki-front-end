@@ -26,7 +26,9 @@ class MenuPage extends Component {
           image={heroImage}
           content={this.heroContent()}
         />
-        <MenuOptions/>
+        <div className="page-content">
+          <MenuOptions/>
+        </div>
       </div>
     );
   }
