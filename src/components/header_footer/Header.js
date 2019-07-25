@@ -30,7 +30,7 @@ class Header extends Component {
 
   renderMobile = () => {
     return (
-      <MobileNavigation fontColor="aqua" overlayColor="white" font="40px" duration="500" toggle={this.toggle}>
+      <MobileNavigation fontColor="aqua" background="white" font="40px" duration="500" toggle={this.toggle}>
           <Link to="/"> <li>WHERE | WHEN</li> </Link>
           <Link to="/menu"> <li>MENU</li> </Link>
           <Link to="/"> <li>GALLERY</li> </Link>
