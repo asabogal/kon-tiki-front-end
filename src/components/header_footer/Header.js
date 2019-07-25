@@ -3,7 +3,9 @@ import Logo from '../utils/Logo'
 import { Link } from 'react-router-dom'
 import BurgerButton from '../utils/BurgerButton'
 import Button from '../utils/Button'
+import MobileNavigation from '../mobile/MobileNavigation'
 import './style.css'
+import '../mobile/style.css'
 
 const styles = {
   link: {
@@ -18,6 +20,25 @@ class Header extends Component {
     this.state = { 
       isMobile: false
      };
+  }
+
+  toggle = () => {
+    this.setState({
+      isMobile: !this.state.isMobile
+    })
+  };
+
+  renderMobile = () => {
+    return (
+      <MobileNavigation fontColor="aqua" overlayColor="white" font="40px" duration="500" toggle={this.toggle}>
+          <Link to="/"> <li>WHERE | WHEN</li> </Link>
+          <Link to="/menu"> <li>MENU</li> </Link>
+          <Link to="/"> <li>GALLERY</li> </Link>
+          <Link to="/"> <li>ABOUT</li> </Link>
+          <Link to="/"> <li>PRESS</li> </Link>
+          <Link to="/"> <li> | RESERVE | </li> </Link>
+      </MobileNavigation>
+    )
   }
 
   renderLogo = () => {
@@ -42,8 +63,7 @@ class Header extends Component {
     }
   };
 
-  render() {
-       
+  renderHeader = () => {
     return (
       <div className="header-container">
         <div className="header-logo"> 
@@ -60,9 +80,19 @@ class Header extends Component {
         </ul>
 
         <div className="burger-menu">
-          <BurgerButton size="2x" color="black"/>
+          <BurgerButton size="2x" color="black" toggle={this.toggle}/>
         </div>
     
+      </div>
+    )
+  };
+
+  render() {
+       
+    return (
+      <div>
+        {this.state.isMobile ? this.renderMobile() : null}
+        {this.renderHeader()}
       </div>
     );
   }
