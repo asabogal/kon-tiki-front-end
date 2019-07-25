@@ -1,10 +1,12 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade'
 import './style.css'
 
 const Hero = (props) => {
 
   const template = 
-    <div className="hero"
+    <Fade distance="25px" bottom>
+      <div className="hero"
         style={{
           gridTemplateRows: props.rows,
           gridTemplateColumns: props.columns,
@@ -14,8 +16,10 @@ const Hero = (props) => {
           position: 'relative,'
         }}
       >
-          {props.content}
-    </div>
+        {props.content}
+       </div>
+    </Fade>
+    
       
   return template
 
