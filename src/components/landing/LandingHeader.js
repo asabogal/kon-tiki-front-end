@@ -23,7 +23,7 @@ class LandingHeader extends Component {
 
   renderMobile = () => {
     return (
-      <MobileNavigation color="#ce6897" toggle={this.toggle}>
+      <MobileNavigation color="#ce6897" font="50px" duration="0" background="white" toggle={this.toggle}>
         <Link to="/home"> <li>HOME</li> </Link>
         <Link to="/menu"> <li>MENU</li> </Link>
         <Link to="/"> <li>RESERVE</li> </Link>
