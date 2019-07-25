@@ -1,20 +1,33 @@
 import React from 'react';
-import { red } from 'ansi-colors';
+import Fade from 'react-reveal/Fade';
 
 const MobileNavigation = (props) => {
+
+  let {background, font, duration } = props
+
+  let styles = {
+    overlay: {
+      backgroundColor: background
+    },
+    overlayContent: {
+      fontSize: font
+    }
+  };
 
   const handleClick = () => {
     props.toggle()
   }
   return (
     <div className="mobile-nav-cotainer">
-      <div className="overlay" onClick={handleClick}>
-        <div className="overlay-content">
-          <div style={{color: props.color}}>
-            {props.children}
+      <Fade duration={duration} top >
+        <div className="overlay" onClick={handleClick} style={styles.overlay}>
+          <div className="overlay-content" style={styles.overlayContent}>
+            <div>
+              {props.children}
+            </div>
           </div>
         </div>
-      </div>
+      </Fade>
     </div>
       
   );
