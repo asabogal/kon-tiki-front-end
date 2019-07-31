@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css'
 
-const TextInfo = (props) => {
+const TextBox = (props) => {
   return (
-    <div className="text-info-contaienr">
+    <div className="text-box-container">
       <h1>
         {props.heading}
       </h1>
@@ -15,4 +15,4 @@ const TextInfo = (props) => {
   );
 };
 
-export default TextInfo;
+export default TextBox;

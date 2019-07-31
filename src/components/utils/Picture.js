@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Picture = (props) => {
+export const Thumbnail = (props) => {
 
   return (
     <div className="picture-cover"
@@ -15,4 +15,10 @@ const Picture = (props) => {
   );
 };
 
-export default Picture;
+export const Picture = (props) => {
+
+  return (
+    <img className="picture-holder" src={props.image}/>
+  );
+};
+
