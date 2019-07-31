@@ -31,7 +31,7 @@ class Header extends Component {
   renderMobile = () => {
     return (
       <MobileNavigation fontColor="aqua" background="white" font="40px" duration="500" toggle={this.toggle}>
-          <Link to="/"> <li>WHERE | WHEN</li> </Link>
+          <Link to="/when_where"> <li>WHERE | WHEN</li> </Link>
           <Link to="/menu"> <li>MENU</li> </Link>
           <Link to="/"> <li>GALLERY</li> </Link>
           <Link to="/"> <li>ABOUT</li> </Link>
@@ -71,7 +71,7 @@ class Header extends Component {
         </div>
 
         <ul className="header-nav">
-          <Link style={styles.link} to="/"> <li>WHERE | WHEN</li> </Link>
+          <Link style={styles.link} to="/when_where"> <li>WHERE | WHEN</li> </Link>
           <Link style={styles.link} to="/menu"> <li>MENU</li> </Link>
           <Link style={styles.link} to="/"> <li>GALLERY</li> </Link>
           <Link style={styles.link} to="/"> <li>ABOUT</li> </Link>
