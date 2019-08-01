@@ -3,12 +3,17 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
-.text-container {
-
+.head-text {
+  width: 80%
 }
 
 .when-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   margin: 20px 0;
+}
+
+.google-map {
+  height: 575px;
+  width: 620px;
 }
