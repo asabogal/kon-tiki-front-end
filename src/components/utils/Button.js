@@ -16,11 +16,18 @@ const Button = (props) => {
       {props.text}
     </button>
 
-  return (
-    <Link to={props.linkTo}>
-      {template}
-    </Link>
-  )
+    if(props.link) {
+      return (
+        <Link to={props.linkTo}>
+          {template}
+        </Link>
+      )
+    } else {
+      
+      return template
+    }
+
+ 
   
 };
 

@@ -11,8 +11,8 @@ const MenuOptions = () => {
       </div>
       
       <div className="menu-buttons">  
-        <Button padding="3px 50px" fontSize="40px" text="DINNER" linkTo="/dinner"/>
-        <Button padding="3px 50px" fontSize="40px" text="DRINK" linkTo="/drinks"/>
+        <Button padding="3px 50px" fontSize="40px" text="DINNER" link={true} linkTo="/dinner"/>
+        <Button padding="3px 50px" fontSize="40px" text="DRINK" link={true} linkTo="/drinks"/>
       </div>
     </div>
   );
