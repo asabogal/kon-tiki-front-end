@@ -1,0 +1,16 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto;
+  gap: 1rem;
+  height: 400px;
+  width: 100%;
+}
+
+.picture-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+}
