@@ -15,6 +15,7 @@ const Experience = () => {
       <div className="experience-heading"> 
         <h1>EXPERIENCE</h1>
       </div>
+      
       <div className="experience-gallery">
        <div className="experience-thumbnail">
        Our Flavors
@@ -23,6 +24,7 @@ const Experience = () => {
             image={rice}/>
          </Link>
        </div>
+
        <div className="experience-thumbnail">
        Our Story
        <Link to="/about">
@@ -30,6 +32,7 @@ const Experience = () => {
           image={boat}/>
        </Link>
        </div>
+
        <div className="experience-thumbnail">
        Through Our Eyes
        <Link to="/gallery">
@@ -37,6 +40,7 @@ const Experience = () => {
           image={eyes}/>
        </Link>
        </div>
+
        <div className="experience-thumbnail">
        The Hotel
        <a href="http://galleryhotelny.com">
