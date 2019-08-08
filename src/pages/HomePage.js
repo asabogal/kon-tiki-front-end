@@ -10,11 +10,21 @@ class HomePage extends Component {
     this.state = {  };
   }
 
+  style = {
+    hero: {
+      color: 'aqua',
+      fontSize: '35px',
+      lineHeight: '30px',
+      letterSpacing: '3px',
+      textAlign: 'center'
+    }
+  }
+
   heroContent = () => {
     return (
-      <div className="hero-content">
+      <div style={this.style.hero}>
        <h1 style={{textDecoration: 'underline'}}>WELCOME TO KON-TIKI</h1>
-       <h2>ECLECTIC ASIAN CUSINE</h2>
+       <h2>"ECLECTIC ASIAN CUISINE"</h2>
       </div>
     )
   }
