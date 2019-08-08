@@ -20,14 +20,15 @@ class HomePage extends Component {
       fontSize: '35px',
       lineHeight: '30px',
       letterSpacing: '3px',
+      textAlign: 'center'
     }
   }
 
   heroContent = () => {
     return (
       <div style={this.style.hero}>
-       <h1 style={{textDecoration: 'underline'}}>WELCOME TO KON-TIKI</h1>
-       <h2>"ECLECTIC ASIAN CUISINE"</h2>
+       <h1 style={{textDecoration: 'underline'}}>THIS IS KON-TIKI!</h1>
+       <h2>"ECLECTIC CUISINE"</h2>
       </div>
     )
   }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
 import heroImage from '../components/hero/images/menu1.png'
 import MenuOptions from '../components/menu/MenuOptions'
+import MenuBoxes from '../components/menu/MenuBoxes'
 
 class MenuPage extends Component {
   constructor(props) {
@@ -16,16 +17,18 @@ class MenuPage extends Component {
   style = {
     hero: {
       color: 'aqua',
-      fontSize: '40px',
+      fontSize: '35px',
       lineHeight: '30px',
       letterSpacing: '2px',
+      textAlign: 'center'
     }
   }
 
   heroContent = () => {
     return (
-      <div className="hero-content" style={this.style.hero}>
-       <h1>OUR MENUS!</h1>
+      <div style={this.style.hero}>
+       <h1 style={{textDecoration: 'underline'}}>OUR MENUS</h1>
+       <h2>TASTE... REIMAGINED</h2>
       </div>
     )
   }
@@ -38,7 +41,7 @@ class MenuPage extends Component {
           content={this.heroContent()}
         />
         <div className="page-content">
-          <MenuOptions/>
+          <MenuBoxes/>
         </div>
       </div>
     );
