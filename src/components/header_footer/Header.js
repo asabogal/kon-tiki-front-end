@@ -46,7 +46,7 @@ class Header extends Component {
       return  ( 
         <Logo
         link={true}
-        linkTo="/"
+        linkTo="/home"
         width="55px"
         height="55px"
       />
@@ -55,7 +55,7 @@ class Header extends Component {
       return  (
         <Logo
         link={true}
-        linkTo="/"
+        linkTo="/home"
         width="80px"
         height="80px"
       />
