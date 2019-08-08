@@ -10,13 +10,16 @@ class HomePage extends Component {
     this.state = {  };
   }
 
+  componentDidMount = () => {
+    window.scroll(0, 0)
+  }
+
   style = {
     hero: {
       color: 'aqua',
       fontSize: '35px',
       lineHeight: '30px',
       letterSpacing: '3px',
-      textAlign: 'center'
     }
   }
 

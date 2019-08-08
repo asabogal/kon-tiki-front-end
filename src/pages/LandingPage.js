@@ -10,6 +10,8 @@ class LandingPage extends Component {
   }
 
   componentDidMount = () => {
+    window.scroll(0, 0)
+
     this.header = document.querySelector('.header-container')
     this.header.style.display = 'none'
 

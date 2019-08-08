@@ -19,13 +19,12 @@ class MenuPage extends Component {
       fontSize: '40px',
       lineHeight: '30px',
       letterSpacing: '2px',
-      textAlign: 'center'
     }
   }
 
   heroContent = () => {
     return (
-      <div style={this.style.hero}>
+      <div className="hero-content" style={this.style.hero}>
        <h1>OUR MENUS!</h1>
       </div>
     )
