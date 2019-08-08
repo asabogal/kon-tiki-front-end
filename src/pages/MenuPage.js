@@ -9,12 +9,24 @@ class MenuPage extends Component {
     this.state = {  };
   }
 
+  componentDidMount = () => {
+    window.scroll(0, 0)
+  }
+
+  style = {
+    hero: {
+      color: 'aqua',
+      fontSize: '40px',
+      lineHeight: '30px',
+      letterSpacing: '2px',
+      textAlign: 'center'
+    }
+  }
+
   heroContent = () => {
     return (
-      <div>
-       <h1 style={{color: 'aqua', fontSize: '80px'}}
-          >PLACEHOLDER
-       </h1>
+      <div style={this.style.hero}>
+       <h1>OUR MENUS!</h1>
       </div>
     )
   }
