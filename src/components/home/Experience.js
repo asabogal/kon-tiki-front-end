@@ -3,7 +3,6 @@ import {Picture} from '../utils/Picture'
 import {Link} from 'react-router-dom'
 import rice from './images/friedrice.png'
 import boat from './images/kt_boat.png'
-import bar from './images/bar2.png'
 import eyes from './images/eyes.png'
 import hotel from './images/hotel.png'
 
@@ -15,7 +14,7 @@ const Experience = () => {
       <div className="experience-heading"> 
         <h1>EXPERIENCE</h1>
       </div>
-      
+
       <div className="experience-gallery">
        <div className="experience-thumbnail">
        Our Flavors
