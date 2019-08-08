@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
+import Intro from '../components/home/Intro'
+import Experience from '../components/home/Experience'
 import image from '../components/hero/images/bar1.png'
 
 class HomePage extends Component {
@@ -10,10 +12,9 @@ class HomePage extends Component {
 
   heroContent = () => {
     return (
-      <div>
-       <h1 style={{color: 'aqua', fontSize: '80px'}}
-          >PLACEHOLDER
-       </h1>
+      <div className="hero-content">
+       <h1 style={{textDecoration: 'underline'}}>WELCOME TO KON-TIKI</h1>
+       <h2>ECLECTIC ASIAN CUSINE</h2>
       </div>
     )
   }
@@ -26,7 +27,8 @@ class HomePage extends Component {
           content={this.heroContent()}
         />
         <div className="page-content">
-
+          <Intro/>
+          <Experience/>
         </div>
       </div>
     );

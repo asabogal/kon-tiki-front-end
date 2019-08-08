@@ -2,6 +2,14 @@
   padding: 0px 30px;
 }
 
+.hero-content {
+  color: aqua;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
 
 /* LANDING PAGE */
 
@@ -9,4 +17,19 @@
   background-color: black;
   height: 100vh;
   width: 100vw;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767px) {
+  .hero-content {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    font-size: 18px;
+    line-height: normal;
+  }
 }
