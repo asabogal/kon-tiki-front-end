@@ -4,7 +4,7 @@ import Button from '../utils/Button'
 import {Picture} from '../utils/Picture'
 
 import dinner from './menu_pictures/friedrice.png'
-import drinks from './menu_pictures/KonTiki Signature Drink.jpg'
+import drinks from './menu_pictures/drink1.png'
 import './style.css'
 
 const MenuBoxes = () => {

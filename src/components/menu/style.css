@@ -43,15 +43,21 @@
 .boxes-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 50px 100px
+  margin: 50px 0px;
 }
 
 .box-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 320px;
-  justify-content: space-between;
-  padding: 10px;
+  grid-template-rows: auto;
   column-gap: 50px;
   margin: 20px
+}
+
+@media (max-width: 678px) {
+  .box-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+  }
 }
