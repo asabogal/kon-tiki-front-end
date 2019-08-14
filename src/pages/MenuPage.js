@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero/Hero'
 import heroImage from '../components/hero/images/menu1.png'
-import MenuOptions from '../components/menu/MenuOptions'
 import MenuBoxes from '../components/menu/MenuBoxes'
 
 class MenuPage extends Component {
