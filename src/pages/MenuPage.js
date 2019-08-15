@@ -3,6 +3,8 @@ import Hero from '../components/hero/Hero'
 import heroImage from '../components/hero/images/menu1.png'
 import MenuBoxes from '../components/menu/MenuBoxes'
 
+import Radium from 'radium'
+
 class MenuPage extends Component {
   constructor(props) {
     super(props);
@@ -13,19 +15,23 @@ class MenuPage extends Component {
     window.scroll(0, 0)
   }
 
-  style = {
-    hero: {
+  styles = {
+    heroContent: {
       color: 'aqua',
       fontSize: '35px',
       lineHeight: '30px',
-      letterSpacing: '2px',
-      textAlign: 'center'
+      letterSpacing: '3px',
+      textAlign: 'center',
+      '@media (max-width: 768px)': {
+        fontSize: '28px',
+        letterSpacing: 'normal'
+      }
     }
   }
 
   heroContent = () => {
     return (
-      <div style={this.style.hero}>
+      <div style={this.styles.heroContent}>
        <h1 style={{textDecoration: 'underline'}}>OUR MENUS</h1>
        <h2>TASTE... REIMAGINED</h2>
       </div>
@@ -47,4 +53,4 @@ class MenuPage extends Component {
   }
 }
 
-export default MenuPage;
+export default Radium(MenuPage);

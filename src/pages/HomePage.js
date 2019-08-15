@@ -4,6 +4,8 @@ import Intro from '../components/home/Intro'
 import Experience from '../components/home/Experience'
 import image from '../components/hero/images/bar1.png'
 
+import Radium from 'radium'
+
 class HomePage extends Component {
   constructor(props) {
     super(props);
@@ -14,19 +16,23 @@ class HomePage extends Component {
     window.scroll(0, 0)
   }
 
-  style = {
-    hero: {
+  styles = {
+    heroContent: {
       color: 'aqua',
       fontSize: '35px',
       lineHeight: '30px',
       letterSpacing: '3px',
-      textAlign: 'center'
+      textAlign: 'center',
+      '@media (max-width: 768px)': {
+        fontSize: '28px',
+        letterSpacing: 'normal'
+      }
     }
   }
 
   heroContent = () => {
     return (
-      <div style={this.style.hero}>
+      <div style={this.styles.heroContent}>
        <h1 style={{textDecoration: 'underline'}}>THIS IS KON-TIKI!</h1>
        <h2>"ECLECTIC CUISINE"</h2>
       </div>
@@ -49,4 +55,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default Radium(HomePage);
