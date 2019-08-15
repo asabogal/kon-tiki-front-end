@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import dinner from './menu_imgs/Food Menu 7.15.pdf'
-import drinks from './menu_imgs/Beverage Menu 2.1.pdf'
+import dinner from './menu_pdfs/Food Menu 7.15.pdf'
+import drinks from './menu_pdfs/Beverage Menu 2.1.pdf'
 
 export class DinnerMenu extends Component {
 
