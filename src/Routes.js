@@ -6,6 +6,7 @@ import WhenWherePage from './pages/WhenWherePage'
 import MenuPage from './pages/MenuPage'
 import GalleryPage from './pages/GalleryPage'
 import { DinnerMenu, DrinksMenu } from './components/menu/Menus'
+import AboutPage from './pages/AboutPage'
 import { Switch, Route } from 'react-router-dom'
 
 class Routes extends Component {
@@ -20,6 +21,7 @@ class Routes extends Component {
           <Route exact path="/gallery" component={GalleryPage}/>
           <Route exact path="/dinner" component={DinnerMenu}/>
           <Route exact path="/drinks" component={DrinksMenu}/>
+          <Route exact path="/about" component={AboutPage}/>
         </Switch>
       </Layout>
     );
