@@ -3,16 +3,26 @@ import { Link } from 'react-router-dom'
 import logo from './images/logo.png'
 import './style.css'
 
+import Radium from 'radium'
+
 
 const Logo = (props) => {
 
+  const styles = {
+    logo: {
+      width: props.width,
+        height: props.height,
+        background: `url(${logo}) no-repeat`,
+        '@media (max-width: 768px)': {
+          width: '55px',
+          height: '55px'
+        }
+    }
+  }
+
   const template = 
     <div className="img-cover" 
-      style={{
-        width: props.width,
-        height: props.height,
-        background: `url(${logo}) no-repeat`
-      }}
+      style={styles.logo}
     >
     </div>
   
@@ -32,4 +42,4 @@ const Logo = (props) => {
  
 };
 
-export default Logo;
+export default Radium(Logo);

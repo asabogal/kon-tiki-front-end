@@ -42,16 +42,6 @@ class Header extends Component {
   }
 
   renderLogo = () => {
-    if (window.innerWidth <= 768) {
-      return  ( 
-        <Logo
-        link={true}
-        linkTo="/home"
-        width="55px"
-        height="55px"
-      />
-      )
-    } else {
       return  (
         <Logo
         link={true}
@@ -60,7 +50,6 @@ class Header extends Component {
         height="80px"
       />
       )
-    }
   };
 
   renderHeader = () => {
