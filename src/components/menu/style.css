@@ -54,6 +54,10 @@
   margin: 20px
 }
 
+.box-text {
+  align-self: center;
+}
+
 @media (max-width: 678px) {
   .box-container {
     grid-template-columns: 1fr;

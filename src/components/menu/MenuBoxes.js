@@ -19,7 +19,7 @@ const MenuBoxes = () => {
 
     const drinksContent = (
       <p>
-        Bar open 'till late Thu - Mon<br></br>
+        Bar open 'till late, Thu - Mon<br></br>
         Exotic, flavorful, and eccentric cocktails.<br></br>
         Tropical flavors enriched with flare.
       </p>
@@ -28,15 +28,15 @@ const MenuBoxes = () => {
   return (
     <div className="boxes-wrapper">
       <div className="box-container">
-        <div>
-        <TextBox
-          heading="DINNER"
-          content={dinnerContent}
-        />
-        <Button 
-          text="OPEN MENU" 
-          link={true} 
-          linkTo="/dinner"/>
+        <div className="box-text">
+          <TextBox
+            heading="DINNER"
+            content={dinnerContent}
+            />
+          <Button 
+            text="DINNER MENU" 
+            link={true} 
+            linkTo="/dinner"/>
         </div>
         <div>
           <Picture  
@@ -52,13 +52,13 @@ const MenuBoxes = () => {
           image={drinks}
           />
         </div>
-        <div>
-        <TextBox
+        <div className="box-text">
+          <TextBox
             heading="DRINKS"
             content={drinksContent}
           />
           <Button 
-            text="OPEN MENU" 
+            text="DRINK MENU" 
             link={true} 
             linkTo="/drinks"/>
         </div>
