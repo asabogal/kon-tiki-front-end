@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Routes from './Routes'
 import Helmet from 'react-helmet'
 import { BrowserRouter } from 'react-router-dom'
+import Radium, {StyleRoot} from 'radium'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <StyleRoot>
         <Helmet>
           <title>Kon-Tiki Greenport</title>
           <meta name="description" content="Kon-Tiki Restaurant and Bar at The Gallery Hotel" />
@@ -15,9 +16,9 @@ class App extends Component {
         <BrowserRouter>
           <Routes/>
         </BrowserRouter>
-      </div>
+      </StyleRoot>
     );
   }
 }
 
-export default App; 
+export default Radium(App); 
