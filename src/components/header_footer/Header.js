@@ -63,7 +63,7 @@ class Header extends Component {
           <Link style={styles.link} to="/when_where"> <li>WHERE | WHEN</li> </Link>
           <Link style={styles.link} to="/menu"> <li>MENU</li> </Link>
           <Link style={styles.link} to="/gallery"> <li>GALLERY</li> </Link>
-          <Link style={styles.link} to="/"> <li>ABOUT</li> </Link>
+          <Link style={styles.link} to="/about"> <li>ABOUT</li> </Link>
           <Link style={styles.link} to="/"> <li>PRESS</li> </Link>
           <Link style={styles.link} to="/"> <Button text="RESERVE"/> </Link>
         </ul>
