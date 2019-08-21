@@ -20,8 +20,8 @@
   letter-spacing: 1px;
 }
 
-.experience-heading h1 {
-  border-bottom: 4px solid black;
+.experience-heading h3 {
+  border-bottom: 2px solid black;
   margin: 20px 30%;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .experience-gallery img:hover {
-  transition: transform .3s ease;
+  transition: transform .1s ease;
   transform: scale(1.02)
 }
 
