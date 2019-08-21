@@ -3,9 +3,11 @@ import React from 'react';
 const Intro = () => {
   return (
     <div className="intro-container">
-      <h1>THIS IS KON-TIKI!!</h1>
-      <p>Kon-Tiki is the in-house restaurant and bar of The Gallery Hotel.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <h3>WELCOME!</h3>
+      <p>
+        KonTiki is one of the North Fork’s most intriguing restaurants and bars.<br></br>
+	      Our unique approach to Asian cusine sets us apart from any culinary experience in the area.<br></br>
+	      Located at the beautiful Gallery Hotel, we welcome you to join us and experience it for yourself! Be it on our gorgeous backyard garden, or the cozy main room.<br></br>
       </p>
     </div>
   );
