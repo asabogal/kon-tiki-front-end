@@ -18,10 +18,10 @@ class HomePage extends Component {
 
   styles = {
     heroContent: {
-      color: 'aqua',
+      color: 'rgb(198, 245, 248)',
       fontSize: '35px',
       lineHeight: '30px',
-      letterSpacing: '3px',
+      letterSpacing: '2px',
       textAlign: 'center',
       '@media (max-width: 768px)': {
         fontSize: '28px',
@@ -33,8 +33,8 @@ class HomePage extends Component {
   heroContent = () => {
     return (
       <div style={this.styles.heroContent}>
-       <h1 style={{textDecoration: 'underline'}}>THIS IS KON-TIKI!</h1>
-       <h2>"ECLECTIC CUISINE"</h2>
+       <h1 style={{textDecoration: 'underline'}}>KON-TIKI</h1>
+       <h2>ECLECTIC CUISINE</h2>
       </div>
     )
   }
