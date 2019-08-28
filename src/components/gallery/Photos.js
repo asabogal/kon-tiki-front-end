@@ -7,6 +7,8 @@ import corn from './photos/corn.png'
 import drink from './photos/drink1.png'
 import dumplings from './photos/dumplings1.png'
 import empanadas from './photos/empanadas.png'
+import garden1 from './photos/GARDEN 1.jpg'
+import garden2 from './photos/GARDEN 4.jpg'
 import glasses from './photos/glasses1.png'
 import inside from './photos/inside.png'
 import interior from './photos/interior1.png'
@@ -73,6 +75,11 @@ export const photos = [
     width: 4,
     height: 3
   },
+  {
+    src: garden2,
+    width: 5,
+    height: 5
+  },
   // /////////
   {
     src: shumai,
@@ -125,7 +132,7 @@ export const photos = [
     height: 5
   },
   {
-    src: empanadas,
+    src: garden1,
     width: 4,
     height: 3
   },
