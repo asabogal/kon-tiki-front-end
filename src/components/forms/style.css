@@ -1,0 +1,24 @@
+.subscribe-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding-left: 10px;
+}
+
+.subscribe-container h3 {
+  letter-spacing: 0px;
+}
+
+.subscribe-container p {
+  margin-top: 0;
+}
+
+.subscribe-form input {
+  width: 80%;
+  border: 0px;
+  border-bottom: 2px solid #1a1a1a;
+  background-color: transparent;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  padding: 10px 10px;
+}
