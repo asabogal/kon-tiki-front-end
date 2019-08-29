@@ -10,6 +10,19 @@ class Subscribe extends Component {
       email: ''
      };
   }
+
+  handleChange = (event) => {
+    const {name, value} = event.target
+    this.setState({
+      [name]: value
+    })
+  }
+
+  handleSubmit = (event) => {
+    alert('email submited')
+    event.preventDefault()
+  }
+
   
   render() {
     return (
@@ -19,22 +32,26 @@ class Subscribe extends Component {
             KEEP UP TO DATE WITH US
           </h3>
           <p>
-            Signup to receive special updates and news from Kon-Tiki!
+            Sign up for all the latests news, deals and events at Kon-Tiki.
           </p>
         </div>
         <div className="subscribe-form">
-          <form>
+          <form onSubmit={this.handleSubmit}>
             <input 
               placeholder="Email Address"
               type="text"
+              name="email"
               value={this.state.email}
               onChange={this.handleChange}
             />
+            <submit>
+              <Button
+                text="SIGNUP"
+                padding="2px 60px"
+              />
+            </submit>
           </form>
-          <Button
-            text="SIGNUP"
-            padding="2px 60px"
-          />
+       
         </div>
       </div>
     );
