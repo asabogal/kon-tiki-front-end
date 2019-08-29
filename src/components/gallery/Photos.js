@@ -15,6 +15,7 @@ import interior from './photos/interior1.png'
 import oysters from './photos/oysters.png'
 import pinapple from './photos/pinapple.png'
 import pirate from './photos/pirate.png'
+import plate from './photos/plate.png'
 import rice from './photos/rice.png'
 import springRolls from './photos/spring_rolls.png'
 import shark from './photos/shark.png'
@@ -49,6 +50,11 @@ export const photos = [
     src: table,
     width: 4,
     height: 5
+  },
+  {
+    src: plate,
+    width: 4,
+    height: 4
   },
   {
     src: drink,
