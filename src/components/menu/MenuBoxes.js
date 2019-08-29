@@ -3,7 +3,7 @@ import TextBox from '../utils/TextBox'
 import Button from '../utils/Button'
 import {Picture} from '../utils/Picture'
 
-import dinner from './menu_pictures/friedrice.png'
+import dinner from './menu_pictures/plate.png'
 import drinks from './menu_pictures/drink1.png'
 import './style.css'
 
