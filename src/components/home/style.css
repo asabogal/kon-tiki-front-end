@@ -64,3 +64,34 @@
     row-gap: 3rem;
   }
 }
+
+/* FOLLOW US */
+
+.followus-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  gap: 20px;
+}
+
+.followus-container h1 {
+  color: rgb(211, 128, 204);
+}
+
+.icon-container:hover {
+  transform: scale(1.1)
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: black;
+  background-color: pink;
+  margin-bottom: 20px;
+}
