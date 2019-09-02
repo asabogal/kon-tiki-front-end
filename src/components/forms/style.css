@@ -53,3 +53,20 @@
     margin-bottom: none;
   }
 }
+
+/* CONTACT US */
+
+.contact-container {
+ display: grid;
+ justify-content: center;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+}

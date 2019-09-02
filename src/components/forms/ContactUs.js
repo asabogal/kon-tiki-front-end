@@ -29,11 +29,11 @@ class ContactUs extends Component {
     return (
       <div className="contact-container">
         <div className="contact-heading">
-          CONTACT US
+          <h3>CONTACT US</h3>
         </div>
 
-        <div className="contact-form">
-          <form onSubmit={this.handleSubmit}>
+        <div>
+          <form className="contact-form" onSubmit={this.handleSubmit}>
             <input
               placeholder="Name"
               type="text"
