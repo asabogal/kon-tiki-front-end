@@ -8,7 +8,7 @@ const LandingNavigation = () => {
       <Link to="/home"> <li>HOME</li> </Link>
       <Link to="/menu"> <li>MENU</li> </Link>
       <Link to="/"> <li>RESERVE</li> </Link>
-      <Link to="/"> <li>CONTACT</li> </Link>
+      <Link to="/contact"> <li>CONTACT</li> </Link>
     </ul>
   );
 };
