@@ -97,7 +97,6 @@
   bottom: 0;
   height: 80vh;
   width: 100%;
-  z-index: -1;
   margin: 100px 0px 50px 0px;
 }
 
@@ -111,9 +110,14 @@
   bottom: 0;
   height: 80vh ;
   width: 100%;
-  background: rgba(54, 25, 43, 0.1);
+  background: rgba(54, 25, 43, 0.5);
   z-index: -2;
-  
+}
+
+.subhero p {
+  margin: 0 3px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 /* FOLLOW US */
