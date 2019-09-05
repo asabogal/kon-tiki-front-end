@@ -65,6 +65,20 @@
   }
 }
 
+/* ENJOY */
+
+.enjoy-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.enjoy-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
 /* FOLLOW US */
 
 .followus-container {
@@ -88,10 +102,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border-color: black;
-  background-color: pink;
+  background-color: #f1a9cb;
   margin-bottom: 20px;
 }
