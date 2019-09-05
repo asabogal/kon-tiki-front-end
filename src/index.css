@@ -53,3 +53,7 @@ h3 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+p {
+  font-weight: 300;
+}
