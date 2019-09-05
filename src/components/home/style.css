@@ -65,18 +65,25 @@
   }
 }
 
-/* ENJOY */
+/* room */
 
-.enjoy-container {
+.roomboxes-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 50px 0;
+  margin: 50px 0px;
 }
 
-.enjoy-gallery {
+.roombox-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  grid-template-rows: auto;
+  column-gap: 50px;
+  margin: 20px
+}
+
+.roombox-text {
+  padding: 0 50px;
+  align-self: center;
 }
 
 /* FOLLOW US */
