@@ -30,6 +30,7 @@ class ContactUs extends Component {
       <div className="contact-container">
         <div className="contact-heading">
           <h3>CONTACT US</h3>
+          <p>{this.props.contact}</p>
         </div>
 
         <div>
